@@ -16,7 +16,7 @@ Additionally, since spring needs an app id add\
   `export DATASTORE_USE_PROJECT_ID_AS_APP_ID=true`
 
 Optionally instead of doing all this, spring has a built-in datastore emulator which can be enabled with the following command in application.properties\
-  `spring.cloud.gcp.datastore.emulator.enabled=true\`
+  `spring.cloud.gcp.datastore.emulator.enabled=true
 If this line is used, spring.cloud.gcp.datastore.host will be ignored\
 
 Setting up ADC and using the datastore in the cloud can also be done with\
