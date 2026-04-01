@@ -10,7 +10,7 @@ Located in src/main/resources/application.properties\
 Run the emulator in a new terminal with\
   `gcloud beta emulators datastore start
 
-Open a new terminal and initialize the environment variables (this is where the project will be run)
+Open a new terminal and initialize the environment variables (this is where the project will be run)\
    `gcloud beta emulators datastore env-init`
 Additionally, since spring needs an app id add\
   `export DATASTORE_USE_PROJECT_ID_AS_APP_ID=true`
