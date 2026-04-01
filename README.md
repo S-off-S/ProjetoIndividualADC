@@ -24,6 +24,9 @@ Setting up ADC and using the datastore in the cloud can also be done with
 
 Important: remove the lines added in application.properties once you deploy (so the datastore in the cloud can be used)\
 
+Once added, don't forget to clean the package:
+  `mvn clean package`
+
 Run with:\
   `mvn appengine:run`
 
